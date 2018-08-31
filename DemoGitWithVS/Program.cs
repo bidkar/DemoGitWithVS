@@ -19,6 +19,7 @@ namespace DemoGitWithVS
         {
             var saludo = new Program();
             Console.WriteLine(saludo.Mensaje);
+            Console.Read();
         }
     }
 }
