@@ -8,15 +8,17 @@ namespace DemoGitWithVS
 {
     class Program
     {
-        public string Saludo { get; set; }
+        public string Mensaje { get; set; }
 
         public Program()
         {
-            Saludo = "Hola UAdeO";
+            Mensaje = "Hola UAdeO";
         }
 
         static void Main(string[] args)
         {
+            var saludo = new Program();
+            Console.WriteLine(saludo.Mensaje);
         }
     }
 }
